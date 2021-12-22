@@ -1,4 +1,4 @@
-import 'package:bank_ui/screens/homePage.dart';
+import 'package:bank_ui/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() async {

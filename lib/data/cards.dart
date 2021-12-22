@@ -1,4 +1,4 @@
-import 'package:bank_ui/model/cardDataModel.dart';
+import 'package:bank_ui/model/card_data_model.dart';
 
 //! example cards
 List<CardDataModel> cardsData = [

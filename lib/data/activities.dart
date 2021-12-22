@@ -1,4 +1,4 @@
-import 'package:bank_ui/model/activityModel.dart';
+import 'package:bank_ui/model/activity_model.dart';
 
 //! example activities
 List<Activity> activities = [

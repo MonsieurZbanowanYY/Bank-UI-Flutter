@@ -1,16 +1,14 @@
-// ignore_for_file: file_names
-
 import 'package:bank_ui/data/activities.dart';
 import 'package:bank_ui/data/cards.dart';
 import 'package:bank_ui/data/user.dart';
 
-import 'package:bank_ui/model/activityModel.dart';
-import 'package:bank_ui/model/cardModel.dart';
+import 'package:bank_ui/model/activity_model.dart';
+import 'package:bank_ui/model/card_model.dart';
 
-import 'package:bank_ui/model/ibanFormatter.dart';
-import 'package:bank_ui/widgets/activityWidget.dart';
-import 'package:bank_ui/widgets/bottomBar.dart';
-import 'package:bank_ui/widgets/cardWidget.dart';
+import 'package:bank_ui/model/iban_formatter.dart';
+import 'package:bank_ui/widgets/activity_widget.dart';
+import 'package:bank_ui/widgets/bottom_bar.dart';
+import 'package:bank_ui/widgets/card_widget.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

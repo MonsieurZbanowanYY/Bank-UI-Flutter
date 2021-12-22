@@ -1,8 +1,6 @@
-// ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
-import 'package:bank_ui/screens/pagesList.dart';
+import 'package:bank_ui/pages/pages_list.dart';
 
 class BottomBarWidget extends StatelessWidget {
   final int currentIndex;
@@ -30,7 +28,7 @@ class BottomBarWidget extends StatelessWidget {
               Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => screens[i],
+                  builder: (context) => pages[i],
                 ),
               );
             }
